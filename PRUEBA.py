@@ -10,7 +10,7 @@ import random
 
 task_name_ = random.randint(1000,5000)
 task = Task.init(project_name="holaaaaa", task_name=str(task_name_))
-task.execute_remotely(queue_name='cola1')
+task.execute_remotely(queue_name='cola_yolo8')
 a = 5
 b = 4
 c = 6/(a-b+1)
@@ -29,7 +29,7 @@ print('holaaaaaaa')
 # p=plt.plot(x, y, 'o')
 # plt.show()
 # plt.close()
-# task.get_logger().report_matplotlib_figure(title='mi primer plot', series='p', figure=p)
+# task.get_logger().report_matplotlicola1b_figure(title='mi primer plot', series='p', figure=p)
 
 # task.upload_artifact('pesos', 
 #     artifact_object=
